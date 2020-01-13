@@ -1,0 +1,31 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='CSS/main.css'>
+    <link rel="stylesheet" href="css/semantic.min.css">
+</head>
+<body>
+    <div id="FormContainer">
+        <div id="MyContainer" class="JForm">
+        </div>
+    </div>
+
+    <script src="js/Base.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/semantic.min.js"></script>
+    <script src='JS/JForm.js'></script>
+    <script src='JS/main.js'></script>
+    <script>
+        $( document ).ready(function() {
+            var jF = new JForm();
+            jF.Init('MyContainer');
+            $('.ui.checkbox').checkbox();
+            $('.ui.selection.dropdown').dropdown();
+        });
+    </script>
+</body>
+</html>
