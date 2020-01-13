@@ -1,0 +1,13 @@
+html,body
+{
+    font-size: 14px !important;
+}
+
+#FormContainer
+{
+    margin: 3em;
+    padding: 1em;
+    border-radius: 1em;
+    width: 800px;
+    background-color: rgb(197, 197, 197);
+}
